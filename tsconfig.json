@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
+    "target": "esnext" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+    "module": "esnext" /* Specify what module code is generated. */ /* Specify the root folder within your source files. */,
     // This is the only required setting, I think
-    "moduleResolution": "node",
+    "moduleResolution": "node" /* Specify how TypeScript looks up a file from a given module specifier. */,
   }
 }
