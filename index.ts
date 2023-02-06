@@ -1,3 +1,4 @@
-import { predict } from "replicate-api"
+import { predict } from "replicate-api";
 
-console.log(`Stringified predict function ${predict}`)
+// Print out the function to check that we can successfully import it.
+console.log(`Stringified predict function ${predict}`);
